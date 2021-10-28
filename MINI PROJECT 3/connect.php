@@ -9,7 +9,7 @@
    $password = $_GET['password'];
 
    //Database connection
-   $conn = new mysqli('localhost','root','','miniproject');
+   $conn = new mysqli('remotemysql.com','S2ifpSS9oq','5HHONhQ8Y9','S2ifpSS9oq');
    if($conn->connect_error)
    {
        die('Connection Failed : '.$conn->connect_error);
