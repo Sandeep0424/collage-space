@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+li , a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+}
+.anker{
+    color:black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color:black;
+    background-attachment: fixed;
+}
+.logo{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.8s ease-out;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+li{
+    background-color: white;
+    border-radius: 50px;
+    margin: 10px;
+}
+button{
+    padding: 5px 25px;
+    background-color:white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:  14px;
+    color: black;
+}
+button:hover{
+    background-color: #ddd;
+}
+li:hover{
+    background-color:#ddd;
+    transition:all 0.5s ease-in;
+    color: white;
+}
+div{
+    margin: 180px 650px;
+    font-size:30px;
+    text-overflow: inherit;
+    margin-right: 210px;
+    text-decoration: none;
+    transition: all 1s ease-in;
+}
+h2{
+    font-weight: 200;
+}
+footer{
+   background-color:#f2f2f2;
+    padding: 40px;
+}
+.last{
+    margin-left: 10px;
+    font-size: 100px;
+    color:rgba(0, 0, 0, 0.856);
+}
+.imag{
+    height: 20%;
+    background-color: white;
+}
+.stack{
+    margin-left: 820px;
+    font-size: 20px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Space</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/apple-touch-icon.png">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div align="center">
+        <a href="main.php"><img src="image/logo.jpg" alt="This is an image" class="logo"></a>
+    </div>
+    <form action="connect.php" method="GET" class="container">
+        <div align="center">
+            <h2>Create an Account</h2>
+        </div>
+        <hr>
+        <p> First Name:- <input type="text" name="name" id="name" placeholder="First Name"></p>
+        <p>Middle Name:- <input type="text" name="middle_name" id="middle_name" placeholder="Middel Name"></p>
+        <p>Last Name:-<input type="text" name="last_name" id="last_name" placeholder="Last Name"></p>
+        <p>Date of Birth <input type="date" name="DOB" id="DOB"></p>
+        <p>Which field you belong to:-</p>
+        <select name="field" id="field">
+            <option value="Selection of option"><--Select the option--></option>
+            <option value="Teacher">Teacher</option>
+            <option value="Student">Student</option>
+        </select>
+        <p>Institute Name:- <input type="text" name="institute_name" id="institute_name" placeholder="Institute Name"></p>
+        <p>Email:- <input type="email" name="email_id" id="email_id" placeholder="@gmail.com"></p>
+        <p>Password:- <input type="password" name="password" id="password" placeholder="**********"></p>
+        <p>Confirm Password:- <input type="password" name="confirm_password" id="confirm_password" placeholder="**********"></p>
+        <p class="account"><center><a href="#" ><input type="submit" value="Create Account" align="center"></a></center></p>
+    </form>
+</body>
+</html>

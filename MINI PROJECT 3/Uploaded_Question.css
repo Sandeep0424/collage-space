@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li , a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    transition: all 1s ease-in;
+}
+.anker{
+    color:white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color:black;
+}
+.logo{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.8s ease-out;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+li{
+    background-color: white;
+    border-radius: 50px;
+    margin: 10px;
+    color: black;
+}
+button{
+    padding: 5px 25px;
+    background-color:white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: size 20px;
+    color:black;
+}
+button:hover{
+    background-color:red;
+}
+li:hover{
+    background-color: #ddd;
+    transition:all 0.5s ease-in;
+}
+.form-control{
+    margin:10px 33%;
+}
+.container{
+    margin-top: 15px;
+    margin-left: 32%;
+    font-size: 35px;
+    font-style: italic;
+}
+.label{
+    margin-left: 37%;
+    margin-top:10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+.label1{
+    margin: 0 34%;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+.containers{
+    margin: 0 10px;
+}
+.container2{
+    display: flex;
+}
+.search{
+    margin-top: 5px;
+    margin-left: 80%;
+}
+input[type="search"]{
+    cursor:pointer;
+    padding:5px;
+    border:none;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+.btn{
+    margin: 5px 10px;
+}
+input[type="submit"]{
+    padding: 10px;
+    border:none;
+    border-radius: 6px;
+    cursor:pointer;
+    border: 1px solid black;
+    color:green;
+    background-color: white;
+    border-color: green;
+}
+input[type="submit"]:hover{
+    background-color: green;
+    color: white;
+    box-shadow:5px 10px #888888 ;
+    transition: all 1s ease;
+}
+input[type="search"]:hover{
+    border-color: blue;
+    box-shadow: 5px 10px #888888;
+    transition: all 1s ease;
+}

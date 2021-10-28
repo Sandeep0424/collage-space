@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li , a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    transition: all 1s ease-in;
+}
+.anker{
+    color:white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color:black;
+}
+.logo{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.8s ease-out;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+li{
+    background-color: white;
+    border-radius: 50px;
+    margin: 10px;
+    color: black;
+}
+button{
+    padding: 5px 25px;
+    background-color:white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: size 20px;
+    color:black;
+}
+button:hover{
+    background-color:red;
+}
+li:hover{
+    background-color: #ddd;
+    transition:all 0.5s ease-in;
+}
+.container{
+    background-color: #f2f2f2;
+    margin:100px 150px;
+    padding:5px 20px 15px 20px;
+    border-radius: 6px;
+    border:2px lightgray;
+    transition: all 0.4 ease-in-out;
+}
+h3{
+    text-align: center;
+    font-weight: bolder;
+}
+input[type="file"]{
+    margin: 6px;
+    padding: 6px;
+    width: 100%;
+    border:none;
+    border-radius: 3px;
+}
+input[type="datetime-local"],
+input[type="text"],
+input[type="submit"]{
+    margin: 6px;
+    padding: 6px;
+    width: 100%;
+    border:none;
+    border-radius: 3px;
+}
+input[type="submit"]{
+    color:white;
+    background-color: pink;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: green;
+    transition: all 1s ease-in-out;
+}
+footer{
+    padding: 40px;
+    background-color: rgba(231, 221, 221, 0.952);
+}
